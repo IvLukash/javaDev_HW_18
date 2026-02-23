@@ -3,8 +3,10 @@ package goit.edu.exception;
 import java.time.LocalDateTime;
 
 public record ErrorResponse(
-        LocalDateTime time,
+        LocalDateTime timestamp,
         int status,
-        String massage
+        String error,
+        String message,
+        String path
 ) {
 }
