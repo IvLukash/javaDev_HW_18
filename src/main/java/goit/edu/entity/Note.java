@@ -1,4 +1,4 @@
-package goit.edu.model.entity;
+package goit.edu.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

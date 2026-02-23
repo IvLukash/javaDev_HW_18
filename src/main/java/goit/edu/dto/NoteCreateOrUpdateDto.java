@@ -1,4 +1,4 @@
-package goit.edu.model.dto;
+package goit.edu.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
